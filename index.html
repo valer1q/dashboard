@@ -158,17 +158,30 @@
     </article>
     <article class="block block--wide">
       <header class="block__header block__header--grid">
-        <h3 class="block__header__title">Overall sales</h3>
-        <span class="block__header__score">£56,345.98</span>
-        <span class="block__header__change">23,5%</span>
-        <ul class="block__header__legend">
-          <li class="block__header__legend__item">Organic</li>
-          <li class="block__header__legend__item">Professional</li>
-        </ul>
-        <button class="block__header__button">
-          Last 7 month
-          <img src="" alt="" class="block__header__button__icon" />
-        </button>
+        <section class="block__header__header">
+          <section class="block__header__header__left"> <!---->
+            <h3 class="block__header__header__title">Overall sales</h3>
+            <section class="block__header__header__amount">
+              <span class="block__header__header__value">£56,345.98</span>
+              <section></section>
+              <span class="procents">↗ 23.5%</span>
+            </section>
+          </section>
+          <section class="block__header__header__categories">
+            <section class="block__header__header__category organic">
+              <span class="block__header__header__dot"></span> Organic
+            </section>
+            <section class="second">
+              <section class="block__header__header__category professional">
+                <span class="block__header__header__dot"></span> Professional
+              </section>
+            </section>
+          </section>
+          <section class="block__header__header__date">
+            <span class="block__header__header__label">Last 7 month</span>
+            <span class="block__header__header__icon">📅</span>
+          </section>
+        </section>
       </header>
       <section class="block__content">
         <img

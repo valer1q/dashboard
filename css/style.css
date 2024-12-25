@@ -15,7 +15,6 @@
   background-color: var(--color-background);
   row-gap: 36px;
   column-gap: 25px;
-
   max-width: 1184px;
   margin: 0 auto;
 }
@@ -141,7 +140,7 @@
   color: var(--color-accent);
   line-height: 160%;
   font-weight: 600;
-  font-size: 13px;
+
 }
 
 .block__content__change__time {
@@ -154,4 +153,100 @@
   grid-row: span 2;
   align-self: end;
   justify-self: end;
+}
+
+.lock__header--grid{
+  display: grid;
+}
+
+.block__header__change{
+  background-color: var(--color-accent);
+  color: #FFFFFF;
+  border-radius: 1000px;
+  width: 57px;
+  height: 24px;
+}
+
+.block__header__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  padding: 15px 20px;
+  background-color: white;
+}
+
+.block__header__header__title{
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.block__header__header__amount{
+  display: flex;
+  align-items: center;
+}
+
+.block__header__header__categories{
+  display: flex;
+}
+
+.block__header__header__category{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.block__header__header__category .block__header__header__dot{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.block__header__header__category.organic .block__header__header__dot{
+  background-color: #e6e600;
+  position: relative;
+  right: 6px;
+}
+
+.block__header__header__category{
+  position: relative;
+  left: 60px;
+}
+
+.block__header__header__category.professional .block__header__header__dot{
+  background-color: #b3f700;
+  position: relative;
+  right: 6px;
+}
+
+.procents{
+  background-color: var(--color-accent);
+  border-radius: 1000px;
+  color: white;
+  position: relative;
+  left: 14.5px;
+}
+
+.block__header__header__value{
+  font-weight: 800;
+  color: inherit;
+  font-size: 24px;
+  line-height: 125%;
+}
+
+.block__header__header__left{
+  position: relative;
+  right: 17px;
+}
+
+.block__header__header__date{
+  position: relative;
+  left: 100px;
+  bottom: 9px;
+}
+
+.second{
+  position: relative;
+  left: 20px;
 }
